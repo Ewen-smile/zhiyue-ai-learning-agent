@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+.venv312/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# API credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local learning database
+data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+
+# Previous version backups
+backup_before_v*/
+*.bak
+*.backup
+
+# System files
+.DS_Store
+*.log
+.idea/
+.vscode/
